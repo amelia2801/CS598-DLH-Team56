@@ -1,0 +1,7 @@
+This repository is part of the final project of CS598 Deep Learning for Healthcare. The goal of the project is to reproduce a research paper. The research paper selected for this project is ["Characterizing personalized effects of family information on disease risk using graph representation learning"](https://arxiv.org/abs/2304.05010). The authors of the paper provided a codebase that we can use, which is available publicly [here](https://github.com/dsgelab/family-EHR-graphs).
+
+The paper aims to demonstrate the effectiveness of graph-based learning in predicting disease onset in individuals based on their family history. To do this, the authors used graph neural networks (GNNs) and Long Short-Term Memory networks (LSTMs). The model proposed by the paper learns explainable node embeddings for individual relatives and also achieves better performance for complex diseases than clinically-inspired and other deep learning baselines.
+
+This project aims to reproduce the code with the goal of testing a hypothesis: "A graph-based approach to predicting disease through family history is better compared to other current deep-learning approaches." We also perform ablation studies that compare the proposed model to some baseline models.
+
+To run the code, open the `DL4H_Team_56.ipynb`. In the notebook, there is a Google Drive link that points to the whole project. Open that link, and then open `DL4H_Team_56.ipynb` from the Google Drive folder. Run the code on each cell according to the instructions in the notebook itself.
